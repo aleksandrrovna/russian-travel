@@ -1,0 +1,51 @@
+.place {
+  display: grid;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "place__title"
+    "place__website"
+    "place__image"
+    "place__description";
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    grid-template-areas:
+    "place__title place__website"
+    "place__image place__description";
+    row-gap: 48px;
+    column-gap: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    grid-template-areas:
+    "place__title place__website"
+    "place__image place__description";
+    row-gap: 48px;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    grid-template-columns: 460px 1fr;
+    grid-template-areas:
+    "place__title place__website"
+    "place__image place__description";
+    row-gap: 48px;
+    column-gap: 40px;
+  }
+}
