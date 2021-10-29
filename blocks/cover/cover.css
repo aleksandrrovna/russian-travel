@@ -6,7 +6,6 @@
   background-repeat: no-repeat;
   box-sizing: border-box;
   background-image: url(../../images/cover-trains.jpg);
-  z-index: 1;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
