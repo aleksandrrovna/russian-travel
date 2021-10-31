@@ -12,12 +12,14 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .page__places {
-    margin: 0 48px;
+    margin: 0 auto;
+    padding: 0 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .page__places {
-    margin: 0 148px;
+    margin: 0 auto;
+    padding: 0 148px;
   }
 }

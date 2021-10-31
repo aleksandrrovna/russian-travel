@@ -9,7 +9,7 @@
     max-width: 288px;
     font-size: 16px;
     line-height: 20px;
-    margin: 16px auto 40px;
+    margin: 16px 0 40px;
   }
 }
 
@@ -18,7 +18,7 @@
     max-width: 640px;
     font-size: 30px;
     line-height: 36px;
-    margin: 32px auto 56px;
+    margin: 32px 0 56px;
   }
 }
 
@@ -28,6 +28,6 @@
     max-width: 640px;
     font-size: 30px;
     line-height: 36px;
-    margin: 32px auto 64px;
+    margin: 32px 0 64px;
   }
 }
