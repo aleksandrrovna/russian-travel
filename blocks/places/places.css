@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .places {
     gap: 50px;
   }
@@ -22,11 +22,13 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places {
     gap: 80px;
+    max-width: 1024px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .places {
     gap: 80px;
+    max-width: 1280px;
   }
 }
