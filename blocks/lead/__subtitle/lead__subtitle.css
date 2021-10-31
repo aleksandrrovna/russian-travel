@@ -4,7 +4,7 @@
   font-weight: 400;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .lead__subtitle {
     max-width: 288px;
     font-size: 16px;
@@ -22,6 +22,7 @@
   }
 }
 
+/* Данные медиазапросы все же разные (отличается margin), поэтому не вносила здесь правку */
 @media screen and (min-width: 1280px) {
   .lead__subtitle {
     max-width: 640px;
